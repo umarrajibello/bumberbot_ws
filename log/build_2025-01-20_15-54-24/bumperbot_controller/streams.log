@@ -1,0 +1,108 @@
+[0.067s] Invoking command in '/home/raji/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raji/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/raji/bumperbot_ws/src/bumperbot_controller -DCMAKE_INSTALL_PREFIX=/home/raji/bumperbot_ws/install/bumperbot_controller
+[1.333s] -- The C compiler identification is GNU 11.4.0
+[1.964s] -- The CXX compiler identification is GNU 11.4.0
+[2.185s] -- Detecting C compiler ABI info
+[2.588s] -- Detecting C compiler ABI info - done
+[2.596s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.597s] -- Detecting C compile features
+[2.626s] -- Detecting C compile features - done
+[2.645s] -- Detecting CXX compiler ABI info
+[2.983s] -- Detecting CXX compiler ABI info - done
+[2.998s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.998s] -- Detecting CXX compile features
+[2.999s] -- Detecting CXX compile features - done
+[3.094s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.452s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.039s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[4.644s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.689s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.715s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.784s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.875s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.444s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.503s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.779s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.838s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.898s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.980s] -- Looking for pthread.h
+[6.268s] -- Looking for pthread.h - found
+[6.269s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.356s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.357s] -- Found Threads: TRUE  
+[6.549s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[6.550s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[6.601s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[6.680s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[6.762s] -- Found tf2_ros: 0.25.9 (/opt/ros/humble/share/tf2_ros/cmake)
+[7.965s] -- Configuring done
+[7.981s] -- Generating done
+[7.987s] -- Build files have been written to: /home/raji/bumperbot_ws/build/bumperbot_controller
+[7.999s] Invoked command in '/home/raji/bumperbot_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raji/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/raji/bumperbot_ws/src/bumperbot_controller -DCMAKE_INSTALL_PREFIX=/home/raji/bumperbot_ws/install/bumperbot_controller
+[8.000s] Invoking command in '/home/raji/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raji/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/raji/bumperbot_ws/build/bumperbot_controller -- -j12 -l12
+[8.055s] [ 25%] [32mBuilding CXX object CMakeFiles/noisy_controller.dir/src/noisy_controller.cpp.o[0m
+[8.055s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[0m
+[8.080s] [ 50%] Built target ament_cmake_python_copy_bumperbot_controller
+[8.310s] running egg_info
+[8.311s] creating bumperbot_controller.egg-info
+[8.311s] writing bumperbot_controller.egg-info/PKG-INFO
+[8.311s] writing dependency_links to bumperbot_controller.egg-info/dependency_links.txt
+[8.311s] writing top-level names to bumperbot_controller.egg-info/top_level.txt
+[8.312s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[8.313s] reading manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[8.314s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[8.336s] [ 50%] Built target ament_cmake_python_build_bumperbot_controller_egg
+[55.026s] [ 75%] [32m[1mLinking CXX executable noisy_controller[0m
+[67.426s] [ 75%] Built target noisy_controller
+[67.512s] [100%] [32m[1mLinking CXX executable simple_controller[0m
+[67.513s] [100%] Built target simple_controller
+[67.514s] Invoked command in '/home/raji/bumperbot_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raji/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/raji/bumperbot_ws/build/bumperbot_controller -- -j12 -l12
+[67.515s] Invoking command in '/home/raji/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raji/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/raji/bumperbot_ws/build/bumperbot_controller
+[67.516s] -- Install configuration: ""
+[67.516s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.sh
+[67.516s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.dsv
+[67.516s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info
+[67.517s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+[67.517s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/PKG-INFO
+[67.517s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/top_level.txt
+[67.517s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+[67.517s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller
+[67.518s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/simple_controller.py
+[67.518s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/__init__.py
+[67.518s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/noisy_controller.py
+[67.518s] Listing '/home/raji/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller'...
+[67.518s] Compiling '/home/raji/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/__init__.py'...
+[67.518s] Compiling '/home/raji/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/noisy_controller.py'...
+[67.519s] Compiling '/home/raji/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/simple_controller.py'...
+[67.519s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_controller/include/include
+[67.519s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_controller/include/include/bumperbot_controller
+[67.519s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_controller/include/include/bumperbot_controller/noisy_controller.hpp
+[67.519s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_controller/include/include/bumperbot_controller/simple_controller.hpp
+[67.519s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller
+[67.520s] -- Set runtime path of "/home/raji/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller" to ""
+[67.520s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/noisy_controller
+[67.520s] -- Set runtime path of "/home/raji/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/noisy_controller" to ""
+[67.520s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch
+[67.520s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch/controller.launch.py
+[67.520s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch/joystick_teleop.launch.py
+[67.521s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config
+[67.521s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/bumperbot_controllers.yaml
+[67.521s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/joy_config.yaml
+[67.521s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/joy_teleop.yaml
+[67.521s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller.py
+[67.521s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/noisy_controller.py
+[67.521s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/package_run_dependencies/bumperbot_controller
+[67.522s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/parent_prefix_path/bumperbot_controller
+[67.522s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.sh
+[67.522s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.dsv
+[67.522s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.sh
+[67.522s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.dsv
+[67.522s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.bash
+[67.522s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.sh
+[67.522s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.zsh
+[67.523s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.dsv
+[67.523s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.dsv
+[67.523s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/packages/bumperbot_controller
+[67.523s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig.cmake
+[67.523s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig-version.cmake
+[67.523s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.xml
+[67.523s] Invoked command in '/home/raji/bumperbot_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raji/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/raji/bumperbot_ws/build/bumperbot_controller

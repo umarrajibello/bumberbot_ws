@@ -1,0 +1,62 @@
+[0.059s] Invoking command in '/home/raji/bumperbot_ws/build/bumperbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raji/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/raji/bumperbot_ws/src/bumperbot_description -DCMAKE_INSTALL_PREFIX=/home/raji/bumperbot_ws/install/bumperbot_description
+[1.320s] -- The C compiler identification is GNU 11.4.0
+[1.952s] -- The CXX compiler identification is GNU 11.4.0
+[2.176s] -- Detecting C compiler ABI info
+[2.577s] -- Detecting C compiler ABI info - done
+[2.587s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.587s] -- Detecting C compile features
+[2.616s] -- Detecting C compile features - done
+[2.629s] -- Detecting CXX compiler ABI info
+[2.988s] -- Detecting CXX compiler ABI info - done
+[2.995s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.995s] -- Detecting CXX compile features
+[2.996s] -- Detecting CXX compile features - done
+[3.084s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.442s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.022s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[4.654s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.895s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.901s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.903s] -- Added test 'lint_cmake' to check CMake code style
+[4.904s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.908s] -- Added test 'xmllint' to check XML markup files
+[4.911s] -- Configuring done
+[4.917s] -- Generating done
+[4.920s] -- Build files have been written to: /home/raji/bumperbot_ws/build/bumperbot_description
+[4.926s] Invoked command in '/home/raji/bumperbot_ws/build/bumperbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raji/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/raji/bumperbot_ws/src/bumperbot_description -DCMAKE_INSTALL_PREFIX=/home/raji/bumperbot_ws/install/bumperbot_description
+[4.928s] Invoking command in '/home/raji/bumperbot_ws/build/bumperbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raji/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/raji/bumperbot_ws/build/bumperbot_description -- -j12 -l12
+[4.962s] Invoked command in '/home/raji/bumperbot_ws/build/bumperbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raji/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/raji/bumperbot_ws/build/bumperbot_description -- -j12 -l12
+[4.964s] Invoking command in '/home/raji/bumperbot_ws/build/bumperbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raji/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/raji/bumperbot_ws/build/bumperbot_description
+[4.970s] -- Install configuration: ""
+[4.970s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/launch
+[4.970s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/launch/display.launch.py
+[4.985s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/launch/gazebo.launch.py
+[4.985s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes
+[4.985s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/caster_rear_link.STL
+[5.033s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/imu_link.STL
+[5.040s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/base_link.STL
+[5.350s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/caster_front_link.STL
+[5.380s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/wheel_right_link.STL
+[5.400s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/wheel_left_link.STL
+[5.462s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf
+[5.463s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf/bumperbot_ros2_control.xacro
+[5.464s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf/bumperbot.urdf.xacro
+[5.464s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf/bumperbot_gazebo.xacro
+[5.464s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/rviz
+[5.465s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/rviz/display.rviz
+[5.465s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_description/share/ament_index/resource_index/package_run_dependencies/bumperbot_description
+[5.466s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_description/share/ament_index/resource_index/parent_prefix_path/bumperbot_description
+[5.466s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/ament_prefix_path.sh
+[5.467s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/ament_prefix_path.dsv
+[5.468s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/path.sh
+[5.468s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/path.dsv
+[5.469s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.bash
+[5.469s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.sh
+[5.470s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.zsh
+[5.470s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.dsv
+[5.471s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.dsv
+[5.472s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_description/share/ament_index/resource_index/packages/bumperbot_description
+[5.473s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/cmake/bumperbot_descriptionConfig.cmake
+[5.473s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/cmake/bumperbot_descriptionConfig-version.cmake
+[5.473s] -- Installing: /home/raji/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.xml
+[5.481s] Invoked command in '/home/raji/bumperbot_ws/build/bumperbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raji/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/raji/bumperbot_ws/build/bumperbot_description
